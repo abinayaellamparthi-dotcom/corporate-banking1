@@ -1,0 +1,4 @@
+body { font-family: Arial; padding: 20px; }
+.tabs button { margin-right: 10px; }
+.tab { display: none; margin-top: 20px; }
+input { display: block; margin: 5px 0; }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trading Calculator</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h2>Multi-Service Trading Calculator</h2>
+
+
+<div class="tabs">
+<button onclick="showTab('forex')">Forex</button>
+<button onclick="showTab('equity')">Equity</button>
+</div>
+
+
+<div id="forex" class="tab">
+<input id="lot" placeholder="Lot Size">
+<input id="price" placeholder="Price">
+<input id="leverage" placeholder="Leverage">
+<input id="cover" placeholder="Cover Factor">
+<button onclick="calculateForex()">Calculate</button>
+<pre id="result"></pre>
+</div>
+
+
+<script src="/static/script.js"></script>
+</body>
+</html>
